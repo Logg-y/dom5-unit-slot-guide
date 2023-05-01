@@ -49,7 +49,7 @@ A very small subset of these effects are removed from unit slots after battle. T
 -	Encase in ice
 -	Mind collar activation (Phlegra iron bound take damage when they run away, a slot value is set to make this happen only once)
 	
-=== OVERFLOW ===
+# OVERFLOW
 
 Slots can only hold numbers so large. The game only allocates so much space to them, and it does not stop you trying to overfill them, which can lead to some useful results. Specifically, the maximum value that an ability can have in a slot is 32767, and trying to add more of this causes the value to overflow.
 
